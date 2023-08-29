@@ -1,1 +1,1 @@
-Semantics in HTML
+Semantics in HTML and playing with CSS
