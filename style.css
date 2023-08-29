@@ -11,6 +11,10 @@ body {
     background-size: cover;
 }
 
+p {
+    font-family: Serif;
+}
+
 h1{
     background-color: rgb(231, 231, 155);
 }
@@ -32,7 +36,6 @@ img {
 blockquote {
     width: 50%;
     margin-left: 340px;
-    font-weight: 160%;
     background-color:#eeeeee;
     border: 3px solid #a03623;
     padding: 30px;
@@ -45,6 +48,8 @@ blockquote {
 
 q {
     font-style: italic;
+    font-size: 160%;
+    line-height: 80px;
 }
 
 q.villagers {
@@ -118,4 +123,11 @@ footer {
 
 p.footer {
     display: inline
+}
+
+.notification {
+    position: fixed;
+    bottom: 0;
+    float: right;
+    right: 15px;
 }
